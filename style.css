@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(180deg, #f8f1e7, #efe4d4);
+  color: #3b2f2f;
+}
+
+.container {
+  min-height: 100vh;
+  padding: 30px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+/* Logo */
+.logo {
+  font-family: 'Playfair Display', serif;
+  font-size: 2.8rem;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+}
+
+/* Tagline */
+.tagline {
+  color: #c9a24d;
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+/* Description */
+.description {
+  max-width: 520px;
+  font-size: 0.95rem;
+  line-height: 1.6;
+  margin-bottom: 25px;
+}
+
+/* Badge */
+.badge {
+  background-color: #c9a24d;
+  color: #fff;
+  padding: 8px 18px;
+  border-radius: 25px;
+  font-size: 0.85rem;
+  margin-bottom: 30px;
+}
+
+/* Email Form */
+.email-form {
+  display: flex;
+  width: 100%;
+  max-width: 400px;
+  margin-bottom: 30px;
+}
+
+.email-form input {
+  flex: 1;
+  padding: 12px;
+  border: none;
+  outline: none;
+  border-radius: 6px 0 0 6px;
+}
+
+.email-form button {
+  background-color: #3b2f2f;
+  color: #fff;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 0 6px 6px 0;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.email-form button:hover {
+  background-color: #2a1f1f;
+}
+
+/* Social Icons */
+.socials i {
+  font-size: 18px;
+  margin: 0 12px;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.socials i:hover {
+  color: #c9a24d;
+}
+
+/* Footer */
+footer {
+  margin-top: 40px;
+  font-size: 0.75rem;
+  opacity: 0.7;
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+  .logo {
+    font-size: 2.2rem;
+  }
+
+  .tagline {
+    font-size: 1rem;
+  }
+}
